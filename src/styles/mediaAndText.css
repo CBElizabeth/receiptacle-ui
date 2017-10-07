@@ -35,7 +35,7 @@ section>* {
     article.media-and-text-container {
         flex-direction: column;
         margin: 0 auto;
-        padding: 5% 10% 10% 10%;
+        padding: 5% 5% 10% 5%;
     }
 }
 
@@ -43,6 +43,6 @@ section>* {
     article.media-and-text-container {
         flex-direction: column;
         margin: 0 auto;
-        padding: 5% 10% 10% 10%;
+        padding: 5% 0;
     }
 }
