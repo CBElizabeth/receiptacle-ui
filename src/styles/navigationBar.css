@@ -1,0 +1,19 @@
+#navBar {
+    font-family: 'Istok Web', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: 0 1px 2px #1C171B;
+}
+
+.button {
+    color: #B6B6C8;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-shadow: 0 1px 2px #1C171B;
+    text-decoration: none;
+}
+
+@media all and (max-width: 1024px) { }
+@media all and (max-width: 839px) { }
+@media all and (max-width: 480px) { }
