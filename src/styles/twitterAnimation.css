@@ -13,75 +13,118 @@
 #camera {
     display: inline-block;
     background: #30292F;
-    width: 5px;
-    height: 5px;
-    margin-top: 2%;
-    margin-left: -30px;
-    border-radius: 5px;
+    width: 1vmin;
+    height: 1vmin;
+    border-radius: 1vmin;
+    margin-left: 10vmin;
+    margin-top: 2vmin;
 }
 
 #speaker {
     display: inline-block;
     background: #30292F;
-    width: 20px;
-    height: 3px;
-    margin-top: 2%;
-    margin-left: 30px;
-    border-radius: 3px;
+    width: 5vmin;
+    height: 1vmin;
+    margin-top: 2vmin;
+    margin-left: 6.5vmin;
+    border-radius: 1vmin;
 }
 
 #screen {
     width: 93%;
-    height: 85%;
+    height: 59vmin;
     margin-left: 3.5%;
-    margin-top: 3.5%;
+    margin-top: 3vmin;
     background: #51454F;
 }
 
 #ui {
     width: 100%;
-    height: 3%;
+    height: 2vmin;
     background: lightgray;
 }
 
 #twitter {
     width: 100%;
-    height: 97%;
+    height: 57vmin;
     background-color: aliceblue;
     overflow: hidden;
-}
-
-#twitter-header {
-    width: 100%;
-    height: 8%;
-    background-color: aliceblue;
-    box-shadow: 0 1px 2px lightgray;
-    z-index: 2;
-    margin-bottom: 3px;
+    font-size: 1.25vmin;
+    text-shadow: 0 0 1.25vmin rgba(0,0,0,1);
+    color: rgba(0,0,0,0.025)
 }
 
 .tweet {
     width: 100%;
-    height: 20%;
+    height: 11.4vmin;
     background-color: aliceblue;
     border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
 }
 
-.profileImage {
-    width: 40px;
-    height: 40px;
+.profile-image {
+    width: 6vmin;
+    height: 6vmin;
+    min-width: 6vmin;
     background-color: lightgray;
-    border-radius: 40px;
-    margin-left: 10px;
-    margin-top: 10px;
+    border-radius: 6vmin;
+    margin: 1.25vmin;
+}
+
+.tweet-text {
+    margin: 1.25vmin;
 }
 
 #button {
-    width: 45px;
-    height: 20px;
     background: #30292F;
-    margin-top: 3%;
-    margin-left: 42%;
-    border-radius: 10px;
+    width: 6vmin;
+        height: 2.75vmin;
+    margin-top: 2vmin;
+    margin-left: 17vmin;
+    border-radius: 1.25vmin;
 }
 
+
+#tweets {
+    /*position: absolute;*/
+    width: 100%;
+    height: 57vmin;
+    margin: 0;
+    box-sizing: border-box;
+    /* Starting position */
+    -moz-transform:translateY(0%);
+    -webkit-transform:translateY(0%);
+    transform:translateY(0%);
+    /* Apply animation to this element */
+    -moz-animation: tweets 15s linear infinite;
+    -webkit-animation: tweets 15s linear infinite;
+    animation: tweets 15s linear infinite;
+}
+
+#tweets:hover {
+    animation-play-state: paused;
+}
+
+/* Move it (define the animation) */
+@-moz-keyframes tweets {
+    0%   { -moz-transform: translateY(0%); }
+    100% { -moz-transform: translateY(-100%); }
+}
+@-webkit-keyframes tweets {
+    0%   { -webkit-transform: translateY(0%); }
+    100% { -webkit-transform: translateY(-100%); }
+}
+@keyframes tweets {
+    0%   {
+        -moz-transform: translateY(0%); /* Firefox bug fix */
+        -webkit-transform: translateY(0%); /* Firefox bug fix */
+        transform: translateY(0%);
+    }
+    100% {
+        -moz-transform: translateY(-100%); /* Firefox bug fix */
+        -webkit-transform: translateY(-100%); /* Firefox bug fix */
+        transform: translateY(-100%);
+    }
+}

@@ -10,22 +10,67 @@ function TwitterAnimation() {
                 <div id="screen">
                     <div id="ui" />
                     <div id="twitter">
-                        <div id="twitter-header" />
-                        <div className="tweet">
-                            <div className="profileImage" />
-                            <div className="tweetText" />
-                        </div>
-                        <div className="tweet">
-                            <div className="profileImage" />
-                            <div className="tweetText" />
-                        </div>
-                        <div className="tweet">
-                            <div className="profileImage" />
-                            <div className="tweetText" />
-                        </div>
-                        <div className="tweet">
-                            <div className="profileImage" />
-                            <div className="tweetText" />
+                        <div id="tweets">
+                            <div className="tweet">
+                                <div className="profile-image" />
+                                <div className="tweet-text">
+                                    Tonight I stayed seated during the anthem at the @BlueJacketsNHL home opener. Thankfully the worst I got was some side eye. #TakeAKnee
+                                </div>
+                            </div>
+                            <div className="tweet">
+                                <div className="profile-image" />
+                                <div className="tweet-text">
+                                    Tonight I stayed seated during the anthem at the @BlueJacketsNHL home opener. Thankfully the worst I got was some side eye. #TakeAKnee
+                                </div>
+                            </div>
+                            <div className="tweet">
+                                <div className="profile-image" />
+                                <div className="tweet-text">
+                                    Tonight I stayed seated during the anthem at the @BlueJacketsNHL home opener. Thankfully the worst I got was some side eye. #TakeAKnee
+                                </div>
+                            </div>
+                            <div className="tweet">
+                                <div className="profile-image" />
+                                <div className="tweet-text">
+                                    Tonight I stayed seated during the anthem at the @BlueJacketsNHL home opener. Thankfully the worst I got was some side eye. #TakeAKnee
+                                </div>
+                            </div>
+                            <div className="tweet">
+                                <div className="profile-image" />
+                                <div className="tweet-text">
+                                    Tonight I stayed seated during the anthem at the @BlueJacketsNHL home opener. Thankfully the worst I got was some side eye. #TakeAKnee
+                                </div>
+                            </div>
+                            <div className="tweet">
+                                <div className="profile-image" />
+                                <div className="tweet-text">
+                                    Tonight I stayed seated during the anthem at the @BlueJacketsNHL home opener. Thankfully the worst I got was some side eye. #TakeAKnee
+                                </div>
+                            </div>
+                            <div className="tweet">
+                                <div className="profile-image" />
+                                <div className="tweet-text">
+                                    Tonight I stayed seated during the anthem at the @BlueJacketsNHL home opener. Thankfully the worst I got was some side eye. #TakeAKnee
+                                </div>
+                            </div>
+                            <div className="tweet">
+                                <div className="profile-image" />
+                                <div className="tweet-text">
+                                    Tonight I stayed seated during the anthem at the @BlueJacketsNHL home opener. Thankfully the worst I got was some side eye. #TakeAKnee
+                                </div>
+                            </div>
+                            <div className="tweet">
+                                <div className="profile-image" />
+                                <div className="tweet-text">
+                                    Tonight I stayed seated during the anthem at the @BlueJacketsNHL home opener. Thankfully the worst I got was some side eye. #TakeAKnee
+                                </div>
+                            </div>
+                            <div className="tweet">
+                                <div className="profile-image" />
+                                <div className="tweet-text">
+                                    Tonight I stayed seated during the anthem at the @BlueJacketsNHL home opener. Thankfully the worst I got was some side eye. #TakeAKnee
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -38,4 +83,5 @@ function TwitterAnimation() {
 export default TwitterAnimation;
 
 //todo: add screen reader description!
-//todo: fix buttons, add details to twitter animation (obvious nazis), animate!
+//todo: add details to twitter animation (obvious nazis)
+//todo: add click/tap pause
